@@ -14,11 +14,11 @@ int main()
     {
         case '1':
             sum=num1+num2;
-            cout<<"sSum of two numbers is "<<sum
+            cout<<"Sum of two numbers is "<<sum
             break;
         default:
-            // If the operator is other than +, -, * or /, error message is shown
-            cout << "Error! operator is not correct";
+            // If the options is not 1-6, error message is shown
+            cout << "Error! Option is not correct";
             break;
     }
     return 0;
