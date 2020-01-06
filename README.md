@@ -2,7 +2,7 @@ Here you will get many projects that are basic and restricted to C,C++ and Pytho
 <B> Steps to run the program</B>
 <ol>
   <li>Fork the project you want to work
-  <li>open the program in any editor like
+  <li>Open the program of respective language in any editor like
     <ul><b>For C, C++</b>
       <li>DEv C++
       <li>Turbo C
