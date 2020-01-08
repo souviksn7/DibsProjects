@@ -19,8 +19,12 @@ cout<<"\nEnter The Current Month(Eg:12): ";
 cin>>current_month;
 cout<<"\nEnter The Current Year(Eg:2020): ";
 cin>>current_year;
-ageinyear= ;
-ageinmonth= ;
+  if(current_month<birth_month)
+   {current_month +=12;
+    current_year--;
+   }
+ageinyear=current_year-birth_year ;   
+ageinmonth=current_month-birth_month ;
 cout<<"\n\nYour Age is "<<ageinyear<<" Years And "<<ageinmonth<<" Months ";
 getch();
 }
